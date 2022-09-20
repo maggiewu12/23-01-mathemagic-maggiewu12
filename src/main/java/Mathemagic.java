@@ -27,43 +27,41 @@ public class Mathemagic {
         //testing elevationVect
         out.printf("Enemy attack coming at elevation vector: %.2f\n", elevationVect(1, 9, 14, 2));     //  should yield -0.54
 
-
     }//end of main method
 
 
     public static double periRect(int length, int width) {
-        return 0;
+        return length + length + width + width;
     }
 
 
     public static double trapArea(int base1, int base2, int height) {
-        return 0;
+        return (float)(base1 + base2)/2*height;
     }
 
 
     public static double conicVol(double radius, int height) {
-        return 0;
+        return (radius*radius*height*3.14159f)/3;
     }
 
 
     public static double cubicBarrier(int edge) {
-        return 0;
+        return edge*edge*6;
     }
 
 
     public static double blastArea(double radius) {
-        return 0;
+        return radius*radius*3.14159;
     }
 
 
     public static double atmoShift(double fahr) {
-        return 0;
+        return (int)((fahr-32)*(.56));
     }
 
 
     public static double elevationVect(int x1, int y1, int x2, int y2) {
-        return 0;
+        return (y2-y1)/(double)(x2-x1);
     }
-
 
 }//end of class
