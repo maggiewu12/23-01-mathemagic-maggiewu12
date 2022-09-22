@@ -56,7 +56,7 @@ public class Mathemagic {
 
 
     public static double atmoShift(double fahr) {
-        return (int)((fahr-32)*(.56));
+        return Math.round((fahr-32)*(5/9f));
     }
 
 
